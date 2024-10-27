@@ -1,0 +1,95 @@
+<html>
+
+	<head>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+			}
+
+			body {
+				color: rgb(230, 230, 230);
+				background-color: black;
+			}
+
+			img {
+				width: 150px;
+				height: 150px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				border-radius: 50%;
+			}
+
+			nav {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			nav ul {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding-left: 20px;
+				padding-right: 20px;
+				width: 100%;
+			}
+
+			nav ul li a {
+				color: white;
+				font-size: 18px;
+				line-height: 25px;
+			}
+
+			nav ul li a:hover {
+				font-size: 24px;
+			}
+
+			.contents {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+
+				text-align: center;
+			}
+
+			.footer {
+				position: absolute;
+				top: 95%;
+				left: 50%;
+				transform: translate(-50%, -90%);
+				text-align: center;
+			}
+
+			.footer a {
+				margin: 0 10px;
+			}
+		</style>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+	</head>
+
+	<body>
+		<div class="contents">
+			<img src="../assets/def_pro_img.jpg" alt="profile_image">
+			<br>
+			<h2>Arnold Simon Manuel Raj</h2>
+			<br>
+			<nav>
+				<ul>
+					<li><a href="main_page.html" target="main_page">Home</a></li>
+					<li><a href="about.html" target="main_page">About</a></li>
+					<li><a href="blog.html" target="main_page">Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="footer">
+			<a href="https://www.linkedin.com/in/arnold-simon-m/" target="_blank"><i class="fa-brands fa-linkedin" style="color: white;"></i></a>
+		</div>
+	</body>
+
+</html>
